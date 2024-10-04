@@ -1,0 +1,37 @@
+#orbit{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: dotted black 2px;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 20%;
+    animation: efg infinite linear  6s;
+ }
+ #sun{
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+    background-color: yellow;
+    align-self: center;
+    position: relative;
+    left: 50px;
+    animation: efg infinite linear 3s;
+    border-left:solid red 3px;
+    box-shadow: 10px 10px 20px 10px red;
+ }
+ #earth{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    align-self: center;
+    animation: efg infinite linear 1s;
+    border-left:solid green 2px;
+    box-shadow: 10px 10px 20px 10px gree;
+ }
+ @keyframes efg{
+    100%{
+        transform: rotateZ(360deg);
+    }
+ }
