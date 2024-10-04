@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#pro{
+    border: solid 1px;
+    height: 590px;
+    width: 500px;
+    margin: 100px;
+    margin-left: 30%;
+    padding: 10px;
+    background-color: rgb(33, 144, 200);
+    color: white;
+}
+form{
+    border: 1px solid ;
+    padding: 10px 20px 20px 20px;
+    margin: 30px;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    width: 70%;
+    height: 68%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:2rem;
+}
+#label{
+    font-size: 11px;
+    color: gray;
+}
+#l2{
+    text-align: center;
+    line-height: 1.5rem;
+    position: relative;
+    top: 8px;
+}
+button{
+    width:98%;
+    height: 30px;
+    padding-left: 5px;
+    margin-left: 6px;
+    background-color: rgb(13, 92, 219);
+    color: aliceblue;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+#in{
+    font-weight: bold;
+    background-color: white;
+    color: rgb(33, 144, 200);
+    width: 20px;
+}
+#l3{
+    text-align: center;
+    line-height: 2.5rem;
+}
+#nam1{
+    width: 96%;
+    height: 30px;
+    line-height: 1.5rem;
+}
+h3,#l1{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+}
+#l4{
+    position: relative;
+    bottom: 22px;
+    font-size: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 30px;
+    margin-top: 12px;
+   
+}
